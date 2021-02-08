@@ -1,0 +1,23 @@
+{
+  "name": "belle-react-cli",
+  "version": "1.0.2",
+  "description": "脚手架",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "belle-react-cli": "./src/index.js"
+  },
+  "keywords": [
+    "cli",
+    "react",
+    "typescript"
+  ],
+  "author": "maoguy",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "fs-extra": "^9.1.0"
+  }
+}
