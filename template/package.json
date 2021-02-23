@@ -24,9 +24,60 @@
   },
   "eslintConfig": {
     "extends": [
+      "eslint:recommended",
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "react/no-multi-comp":[
+        "warn"
+      ],
+      "react/prefer-stateless-function": [
+        "error"
+      ],
+      "react/jsx-pascal-case": [
+        "error"
+      ],
+      "react/jsx-closing-bracket-location": [
+        "error"
+      ],
+      "react/jsx-closing-tag-location": [
+        "error"
+      ],
+      "jsx-quotes": [
+        "error"
+      ],
+      "no-multi-spaces": [
+        "error"
+      ],
+      "react/jsx-curly-spacing": [
+        "error"
+      ],
+      "react/jsx-boolean-value": [
+        "error"
+      ],
+      "jsx-a11y/alt-text": [
+        "error"
+      ],
+      "react/no-string-refs":[
+        "error"
+      ],
+      "react/jsx-wrap-multilines":[
+        "error"
+      ],
+      "react/self-closing-comp":[
+        "error"
+      ],
+      "react/jsx-no-bind":[
+        "error"
+      ],
+      "react/require-render-return":[
+        "error"
+      ],
+      "react/sort-comp":[
+        "error"
+      ]
+    }
   },
   "browserslist": {
     "production": [

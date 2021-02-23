@@ -14,6 +14,9 @@
     "react",
     "typescript"
   ],
+  "bugs": {
+    "url": "https://github.com/maoguy/belle-react-cli/issues"
+  },
   "author": "maoguy",
   "license": "MIT",
   "dependencies": {
