@@ -17,6 +17,10 @@
   "bugs": {
     "url": "https://github.com/maoguy/belle-react-cli/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maoguy/belle-react-cli"
+  },
   "author": "maoguy",
   "license": "MIT",
   "dependencies": {
