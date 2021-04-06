@@ -1,6 +1,6 @@
 {
   "name": "belle-react-cli",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "脚手架",
   "main": "src/index.js",
   "scripts": {
