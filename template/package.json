@@ -30,7 +30,8 @@
     ],
     "rules": {
       "react/no-multi-comp":[
-        "warn"
+        1, 
+        { "ignoreStateless": true }
       ],
       "react/prefer-stateless-function": [
         "error"
